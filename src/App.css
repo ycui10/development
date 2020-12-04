@@ -1,0 +1,137 @@
+.App {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+}
+header {
+  color: rgb(0, 0, 0);
+  padding: 10px 50px;
+  font-size: 40px;
+}
+.content {
+  display: flex;
+}
+.content .left {
+  width: 50%;
+}
+.top {
+  background: #fff;
+  padding: 24px;
+}
+.top .item {
+  display: flex;
+  line-height: 40px;
+}
+.top .item .title {
+  width: 100px;
+  text-align: right;
+}
+.top .item .tag {
+  margin: 0 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+.top .item .active {
+  color: rgba(0, 0, 0, 0.9);
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+  padding: 30px;
+}
+.list .item {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.list .item img {
+  display: block;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.list .item .name {
+  padding: 0 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+.list .item .price {
+  padding: 10px 20px;
+  font-weight: bolder;
+}
+.list .item .type {
+  padding: 10px 20px;
+}
+.list .item .brand {
+  padding: 10px 20px;
+}
+.list .item .btn {
+  color: #fff;
+  background-color: #007bff;
+  font-weight: 400;
+  line-height: 38px;
+  padding: 0 10px;
+  display: inline-block;
+  margin: 0 0 24px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.content .right {
+  width: 40%;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.right .title {
+  background-color: #f3f3f3;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.right .list {
+  background-color: #f3f3f3;
+}
+.list .item .num {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 160px;
+  line-height: 34px;
+  text-align: center;
+}
+.list .item .num .subtract {
+  border-right: 1px solid #ced4da;
+  width: 30px;
+  cursor: pointer;
+}
+.list .item .num .count {
+  flex: 1;
+}
+.list .item .num .add {
+  border-left: 1px solid #ced4da;
+  width: 30px;
+  cursor: pointer;
+}
+.right .bottom {
+  display: flex;
+  background: #f8f9fa;
+  padding: 8px 16px;
+  line-height: 38px;
+  font-weight: 400;
+}
+.right .bottom .flex-all {
+  flex: 1;
+}
+.right .bottom .btn {
+  color: #fff;
+  background-color: #007bff;
+  font-weight: 400;
+  line-height: 38px;
+  padding: 0 10px;
+  display: inline-block;
+  border-radius: 4px;
+  cursor: pointer;
+}
